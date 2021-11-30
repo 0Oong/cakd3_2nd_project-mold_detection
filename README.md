@@ -1,4 +1,5 @@
-# Project Description( 211018 ~ 211112, 약 4주간 진행)
+# Project Description (211018 ~ 211112, 약 4주간 진행)
+* 전반적인 설명은 ppt_and_images에 있는 PPT를 참고해주세요. 
 
 ## 프로젝트 주제
 <div align="center">
