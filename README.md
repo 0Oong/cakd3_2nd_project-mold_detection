@@ -1,14 +1,27 @@
-# Project Description
+# Project Description( 211018 ~ 211112, 약 4주간 진행)
 
+## 프로젝트 주제
+<div align="center">
 <img src="https://github.com/0Oong/cakd3_2nd_project-mold_detection/blob/main/ppt_and_images/%E1%84%8C%E1%85%AE%E1%84%8C%E1%85%A6.png" width="60%"> 
+  
+설명 : 약용작물 중 하나인 밀순의 흰 곰팡이를 탐지하는 프로그램
+</div>
 
+
+
+## 팀원 소개
+<div align="center">
 <img src="https://github.com/0Oong/cakd3_2nd_project-mold_detection/blob/main/ppt_and_images/%E1%84%90%E1%85%B5%E1%86%B7%E1%84%8B%E1%85%AF%E1%86%AB.png" width="60%">
+</div>
 
+## 프로젝트 목차 
+<div align="center">
 <img src="https://github.com/0Oong/cakd3_2nd_project-mold_detection/blob/main/ppt_and_images/%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8E%E1%85%A1.png" width="60%">
-
+</div>
 
 # HOW TO RUN
-#### 0. 모든 파일들을 다운받아 yolov5라는 폴더를 만들어 넣는다.
+#### 0. 모든 파일들을 다운받아 yolov5라는 폴더를 만들어 넣는다. 
+best.pt파일은 압축을 풀어 넣는다. 
 
 
 
@@ -47,3 +60,11 @@ The following augmentation was applied to create 3 versions of each source image
 * 50% probability of horizontal flip
 * Randomly crop between 0 and 20 percent of the image
 * Random exposure adjustment of between -25 and +25 percent
+
+# 사용 모델 및 라이브러리
+* YOLO v5 : 주 사용모델
+(https://github.com/ultralytics/yolov5)
+* ROBOFLOW : annotation tool
+(https://roboflow.com/)
+* Pytorch
+* OpenCV
